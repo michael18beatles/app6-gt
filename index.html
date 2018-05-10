@@ -1,0 +1,329 @@
+﻿<!doctype html>
+<html>
+<head>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<meta charset="utf-8">
+<title>Alonso Rivera Miguel Angel</title>
+<!-- grupo CSS-->
+<link rel="stylesheet" href="css/tema1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/botones.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"> </script>
+<script src="js/jquery.mobile-1.4.5.min.js"> </script>
+<script src="js/acciones.js" type="text/javascript"> </script>
+
+<script src="phonegap.js"> </script> <!--necesario*/-->
+
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/aguasucia.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>5 de Mayo, Batalla de Puebla</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> 4 de Mayo</h1>
+<div>
+<p>La <strong>Batalla de Atlixco</strong> tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Máquez</p>
+<br>
+</div>
+<div> 
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image27','','imagenes/4_mayo.jpg',0)"><img src="imagenes/4_de_mayo.jpg" width="75%" height="58%" id="Image27"></a>
+</div>
+</div>
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> 5 de Mayo</h1>
+<div>
+ <p>El día <strong>5 de mayo de 1862</strong>, tras una de las más duras batallas de la historia, la cual duró desde el amanecer a la tarde, los franceses terminaron por retirarse. El saldo fue de más de 500 bajas en las líneas francesas contra apenas unas 100 en las mexicanas. </p>
+<br>
+</div>
+<div> 
+
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/5_mayo.jpg',1)"><img src="imagenes/5_de_mayo.jpg" width="75%" height="50%" id="Image12"></a>
+
+</div>
+</div>
+</div>
+
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>5 de Mayo</h2>
+<p>Se mostrará información sobre el 5 de Mayo</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>4 de Mayo</h2>
+<p>Se mostrará información sobre el 4 de Mayo</p>
+</a>
+</li>
+<li class ="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Motivos  del conflicto de la Batalla del 5 de Mayo</h2>
+<p>¿Por qué empezó este encuentro? </p> 
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Monumentos a la Batalla</h2>
+<p>Se mostrarán algunos monumentos sobre este hecho histórico</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Héroes de la Batalla de 5 de Mayo</h2>
+<p>Se darán a conocer los héroes de la batalla de Puebla</p>
+</a>
+</li>
+
+
+
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/mx.png" width="16%" >
+</div>
+<div>
+<h4> Aplicación seis</h4>
+<h4> Alonso Rivera Miguel Angel </h4> 
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+  <h1>MOTIVOS DE LA BATALLA DE 5 DE MAYO</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>¿Por qué empezó este encuentro?</h2>
+<P align="justify"> Entre diciembre de 1861 y enero de 1862 las flotas armadas de España, Francia e Inglaterra, desembarcaron en Veracruz para ocupar las aduanas, presionar al gobierno mexicano y recuperar sus capitales. Los representantes de España e Inglaterra aceptaron negociar y llegar a un entendimiento por lo que reembarcaron sus tropas y regresaron a sus países; no así el francés que exigió el pago inmediato de la deuda y continuó con los planes de establecer una monarquía en México. Esto provocó la ruptura de la alianza tripartita y el incumplimiento de los &lsquo;<em>Tratados preliminares de La Soledad</em>&rsquo;; con lo que da inicio al conflicto armado entre México y Francia siendo el 19 de abril de 1862 cuando se realizan los primeros disparos en El Fortín en Veracruz. <br> 
+
+</p>
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/4_de_mayo.jpg" alt="4_de_mayo" title="4_de_mayo" id="wows1_0"/></li>
+		<li><img src="data1/images/5_de_mayo.jpg" alt="5_de_mayo" title="5_de_mayo" id="wows1_1"/></li>
+		<li><img src="data1/images/ignacio_zaragoza.jpg" alt="Ignacio_Zaragoza" title="Ignacio_Zaragoza" id="wows1_2"/></li>
+		<li><img src="data1/images/fuertes_loreto_y_guadalupe.jpg" alt="Fuertes_Loreto_y_Guadalupe" title="Fuertes_Loreto_y_Guadalupe" id="wows1_3"/></li>
+		<li><img src="data1/images/monumento_a_ignacio_zaragoza.jpg" alt="monumento_a_Ignacio_Zaragoza" title="monumento_a_Ignacio_Zaragoza" id="wows1_4"/></li>
+		<li><img src="data1/images/monumento_victoria_5_de_mayo.jpg" alt="monumento_victoria_5_de_Mayo" title="monumento_victoria_5_de_Mayo" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/felipe_berriazabal.jpg" alt="http://wowslider.com/" title="Felipe_Berriazabal" id="wows1_6"/></a></li>
+		<li><img src="data1/images/miguel_negrete.jpg" alt="Miguel_Negrete" title="Miguel_Negrete" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="4_de_mayo"><span><img src="data1/tooltips/4_de_mayo.jpg" alt="4_de_mayo"/>1</span></a>
+		<a href="#" title="5_de_mayo"><span><img src="data1/tooltips/5_de_mayo.jpg" alt="5_de_mayo"/>2</span></a>
+		<a href="#" title="Ignacio_Zaragoza"><span><img src="data1/tooltips/ignacio_zaragoza.jpg" alt="Ignacio_Zaragoza"/>3</span></a>
+		<a href="#" title="Fuertes_Loreto_y_Guadalupe"><span><img src="data1/tooltips/fuertes_loreto_y_guadalupe.jpg" alt="Fuertes_Loreto_y_Guadalupe"/>4</span></a>
+		<a href="#" title="monumento_a_Ignacio_Zaragoza"><span><img src="data1/tooltips/monumento_a_ignacio_zaragoza.jpg" alt="monumento_a_Ignacio_Zaragoza"/>5</span></a>
+		<a href="#" title="monumento_victoria_5_de_Mayo"><span><img src="data1/tooltips/monumento_victoria_5_de_mayo.jpg" alt="monumento_victoria_5_de_Mayo"/>6</span></a>
+		<a href="#" title="Felipe_Berriazabal"><span><img src="data1/tooltips/felipe_berriazabal.jpg" alt="Felipe_Berriazabal"/>7</span></a>
+		<a href="#" title="Miguel_Negrete"><span><img src="data1/tooltips/miguel_negrete.jpg" alt="Miguel_Negrete"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">http://wowslider.net/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+<div align="center">
+<a href="https://culturacolectiva.com/historia/cinco-de-mayo-la-batalla-de-puebla/" class="btn" target="_self"> Para más información, pulsa aquí. </a>
+</div>
+</div>
+
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/mx.png" width="16%">
+</div>
+<h4> Aplicación seis, ARMA </h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1>MONUMENTOS A LA BATALLA</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Se mostrarán algunos monumentos y museos sobre este hecho histórico</h2>
+<img src="imagenes/monumento_a_Ignacio_Zaragoza.jpg" width="59%">
+
+<p align="justify">Monumento a Ignacio Zaragoza. </p>
+
+<img src="imagenes/monumento_150_aniversario.jpg" width="59%">
+
+<p align="justify">Monumento para el 150 aniversario de la Batalla de Puebla. </p>
+
+<img src="imagenes/monumento_victoria_5_de_Mayo.jpg" width="59%">
+
+<p align="justify">Monumento a la victoria de la batalla del 5 de Mayo. </p>
+
+<img src="imagenes/Fuertes_Loreto_y_Guadalupe.jpg" width="59%">
+
+<p align="justify">Los Fuertes de Loreto y Guadalupe.</p>
+
+
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/museo.jpg',1)"><img src="imagenes/Museo_5_Mayo.JPG" width="66%" height="60%" id="Image17"></a> 
+<p align="justify">Museo Interactivo de la Batalla del 5 de Mayo. </p>
+
+<div align="center">
+<a href="http://www.inah.gob.mx/es/red-de-museos/285-museo-del-fuerte-de-loreto" class="btn" target="_self"> Para más información, pulsa aquí. </a> 
+</div>
+
+ </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/mx.png" width="16%">
+</div>
+<h4> Aplicación seis, ARMA </h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1>HÉROES DE LA BATALLA DE 5 DE MAYO</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> Algunos Héroes de la Batalla de Puebla Son:</h2>
+<h3 align="justify">General Ignacio Zaragoza</h3>
+
+<img src="imagenes/Ignacio_Zaragoza.jpg" width="60%" height="57%">
+<p align="justify">Famoso militar mexicano qiuen enfrentó las fuerzas francesas de Napoleón III en Acultzingo en la llamada Batalla de Las Cumbres de Acultzingo, el 28 de abril de 1862.</p> 
+
+<h3 align="justify">Miguel Negrete</h3>
+<img src="imagenes/Miguel_Negrete.jpg" width="60%" height="57%">
+<p align="justify">Durante la Segunda Intervención Francesa en México, Negrete hizo a un lado su ideología conservadora y participó en la defensa del territorio mexicano.</p>
+
+
+
+<h3 align="justify">Felipe Berriazábal</h3>
+<img src="imagenes/Felipe_Berriazabal.jpg" width="60%" height="57%">
+<p align="justify"> En la batalla del 5 de mayo en Puebla, actuó bajo las órdenes del general Ignacio Zaragoza , aseguró el triunfo de los mexicanos al dar alcance con la caballería.  En 1863, fue hecho prisionero por los franceses, logró fugarse uniéndose al presidente Benito Juárez, quien lo designó en 1865 como Ministro de la Guerra.</p>
+
+<h3 align="justify">General Porfirio Díaz</h3>
+<img src="imagenes/Porfirio_Diaz.jpg" width="60%" height="57%">
+<p align="justify">Fue jefe de brigada en Acultzingo en abril de 1862 y ese mismo año participó en la batalla de Cinco de Mayo al lado de Ignacio Zaragoza.  Zaragoza dispuso que el general Lamadrid defendiera con las tropas potosinas y dos piezas de artillería el camino que conectaba a la ciudad con la garita de Amozoc.</p>
+
+<h3 align="justify">Francisco Lamadrid</h3>
+<img src="imagenes/Francisco_Lamadrid.jpg" width="60%" height="57%">
+<p align="justify"> Zaragoza dispuso que el general Lamadrid defendiera con las tropas potosinas y dos piezas de artillería el camino que conectaba a la ciudad con la garita de Amozoc.</p>
+
+
+
+<div align="center">
+
+<a href="https://www.labiografiade10.com/benito-juarez/" class="btn" target="_self"> Benito Juarez </a> <br>
+
+<a href="http://www.dias-festivos-mexico.com.mx/dias-feriados/batalla-puebla/" class="btn" target="_self"> Para más información, pulsa aquí. </a>
+</div>
+
+ </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/mx.png" width="16%">
+</div>
+<h4> Aplicación seis, ARMA </h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1> 5 DE MAYO</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> Batalla de Puebla</h2>
+<p align="justify"> El día 5 de mayo de 1862, tras una de las más duras batallas de la historia, la cual duró desde el amanecer a la tarde, los franceses terminaron por retirarse. El saldo fue de más de 500 bajas en las líneas francesas contra apenas unas 100 en las mexicanas. </p>
+
+<img src="imagenes/5_mayo.jpg" width="66%">
+
+ </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/mx.png" width="16%">
+</div>
+<h4> Aplicación seis, ARMA </h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1>4 de Mayo</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> Batalla de Atlixco:</h2>
+<p align="justify">La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Máquez </p>
+
+
+<img src="imagenes/4_mayo.jpg" width="66%">
+
+
+
+
+
+ </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/mx.png" width="16%">
+</div>
+<h4> Aplicación seis, ARMA </h4>
+</div>
+</div>
+
+</body>
+</html>
+

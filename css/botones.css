@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.btn{
+	border: 2px solid #CC3300;
+	padding: 17px 15px 17px 15px;
+	display: inline-block;
+	font: bold 13px "Arial Black", Gadget, sans-serif;
+	Text-decoration:none;
+	color:#FFF;
+	background-color: #6FF;
+	border-radius: 3px;
+}
+	
+
